@@ -70,7 +70,7 @@ void SPIClose(int *fd_address){
 }
 uint8_t SPI_ReadOneByte(int fd, uint8_t reg){
     int8_t *tx_buffer;
-    int8_t rx_buffer[2]={0,(float)0};
+    int8_t rx_buffer[2]={0,0};
 	uint8_t readBuf;
     int ret;
     
