@@ -1,3 +1,4 @@
+#include <iostream>
 #include "ICM42688.hpp"
 uint64_t micro_time() {
     struct timeval tv;
