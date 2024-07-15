@@ -1,5 +1,5 @@
 #include "IMU_spi.h"
-#include <iostream>
+
 #include <thread>
 uint64_t micro_time();
 class ICM42688
